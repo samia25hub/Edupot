@@ -1,0 +1,91 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background: #004aad;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: #eaf4ff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* Subjects */
+.subjects {
+  padding: 30px 20px;
+  background: #f9f9f9;
+}
+
+.subjects h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border: 2px solid #004aad;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: #004aad;
+  color: white;
+}
+
+/* Resources */
+.resources {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+/* Footer */
+footer {
+  background: #004aad;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
